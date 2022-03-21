@@ -1,0 +1,44 @@
+<form action="Admin_AddItem.php" method="POST">
+			
+			Name  : <input type="text" name="b_name">
+			Image : <input type="file" name="uploadfile">
+			Price : <input type="number_format" name="b_price">
+			Description :<input type="text" name="b_description">
+			<input type="Submit" name="submit" value="Create">
+			
+		</form>
+		
+		class="form-control"
+		
+		
+		
+		<table>
+		<h1 style="color:blue"> ADD BOOK </h1>
+		<div class="col-md-3">
+            <form action="Admin_AddItem.php" method="POST">
+				<div class="form-group mb-2">
+					<label>Book Name</label>
+					<input type="text" name="b_name" placeholder="Enter Book name"></input>
+				</div>
+				
+				<div class="form-group mb-2">
+					<label>Image</label>
+					<input type="file" name="uploadfile"></input>
+				</div>
+				
+				<div class="form-group mb-2">
+					<label>Book Price</label>
+					<input type="number" name="b_price"  placeholder="Enter Book Price"></input>
+				</div>
+				
+				
+				<div class="form-group mb-2">
+					<label>Description</label>
+					<input type="text" name="b_description"  placeholder="Enter description"></input>
+				</div>
+				<div class="form-group mb-2">
+					<input type="submit" value="Add" class="Create"></input>
+				</div>	
+			</form>
+			</div>
+        </table>
